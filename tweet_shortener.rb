@@ -59,6 +59,14 @@ end # bulk_tweet_shortener
 
 
 def selective_tweet_shortener(tweet)
-  
+  return_string = ""
+  length = tweet.size
+  #puts "tweet is #{length} characters long."
+  if length > 140
+    return_string = word_substituter(tweet)
+  else
+    return_string = tweet
+  end
+  return_string  
   
 end # selective_tweet_shortener

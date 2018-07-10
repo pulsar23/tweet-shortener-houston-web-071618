@@ -27,7 +27,7 @@ def word_substituter(string)
     check_word = word
     
     key_array.each do |key_match|
-       if word == key_match
+       if word.downcase == key_match
          temp = word
          check_word = hash1[key_match]
        end #if

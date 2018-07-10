@@ -40,4 +40,16 @@ def word_substituter(string)
  return_string = new_array.join(" ") 
  return_string
   
-end
+end #word_substituter
+
+def bulk_tweet_shortener(tweet_array)
+  new_array = []
+  i = 0
+   tweet_array.each do |tweets|
+       temp_array = word_substituter(tweets)
+       new_array[i] = temp_array
+       i+=1 
+   end #tweet_array
+   
+  
+end # bulk_tweet_shortener

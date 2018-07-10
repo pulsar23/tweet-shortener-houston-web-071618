@@ -73,7 +73,6 @@ end # selective_tweet_shortener
 
 def shortened_tweet_truncator(tweet)
   length = tweet.size
-  puts "tweet is #{length} characters long."
 
   if length > 140
     new_string = tweet[0..136]

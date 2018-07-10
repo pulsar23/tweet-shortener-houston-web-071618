@@ -70,3 +70,7 @@ def selective_tweet_shortener(tweet)
   return_string  
   
 end # selective_tweet_shortener
+
+def shortened_tweet_truncator(tweet)
+  
+end

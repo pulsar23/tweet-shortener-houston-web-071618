@@ -42,6 +42,7 @@ def word_substituter(string)
   
 end #word_substituter
 
+
 def bulk_tweet_shortener(tweet_array)
   new_array = []
   i = 0
@@ -56,6 +57,8 @@ def bulk_tweet_shortener(tweet_array)
   
 end # bulk_tweet_shortener
 
+
 def selective_tweet_shortener(tweet)
   
-end #
+  
+end # selective_tweet_shortener

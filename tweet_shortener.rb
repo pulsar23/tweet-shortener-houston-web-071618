@@ -55,3 +55,7 @@ def bulk_tweet_shortener(tweet_array)
   new_array 
   
 end # bulk_tweet_shortener
+
+def selective_tweet_shortener(tweet)
+  
+end #
